@@ -1,0 +1,167 @@
+/* Opmaak voor de hele site */
+html {
+  font-family: Arial, sans-serif;
+  background-color: skyblue;
+  margin: 10px;
+}
+
+/* Opmaak voor de body */
+body {
+  background-color: whitesmoke;
+  width: 800px;
+  min-width: 250px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Opmaak voor de header */
+header {
+  padding: 0 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  background-color: lightsteelblue;
+  border-radius: 4px;
+}
+li:hover,
+button:hover {
+  background-color: rgb(104, 104, 225);
+}
+li:active,
+button:active {
+  background-color: rgb(6, 6, 74);
+}
+/* Opmaak voor de hoofdstukken en paragrafen */
+h1,
+h2,
+p {
+  color: black;
+  padding: 0 20px;
+}
+/* Opmaak van het contactformulier */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  display: block;
+  margin: 20px 0px 20px 20px;
+  width: 400px;
+  height: 30px;
+  margin-left: 20px;
+  color: black;
+  background-color: lightsteelblue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 2px skyblue;
+  border: 1px solid deepskyblue;
+}
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  opacity: 1;
+}
+textarea {
+  height: 100px;
+  padding: 5px 4px;
+}
+
+/* Opmaak van de Verzendknop */
+button {
+  display: block;
+  margin: 20px 0px;
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  color: white;
+  background-color: lightsteelblue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid deepskyblue;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(104, 104, 225);
+}
+button:active {
+  background-color: rgb(6, 6, 74);
+}
+
+/* Basisstijl voor alle tabelcellen */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 760px;
+  margin: 20px auto;
+}
+.kolom-middenlang {
+  width: 40%;
+}
+.kolom-lang {
+  width: 45%;
+}
+.kolom-kort {
+  width: 15%;
+}
+th,
+td {
+  text-align: left;
+  padding: 12px 15px;
+  border: 1px solid;
+}
+th {
+  font-weight: bold;
+}
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Opmaak voor de footer */
+footer {
+  border-top: 1px solid skyblue;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 90%;
+  color: #6c757d;
+}
+footer a {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: rgb(104, 104, 225);
+}
+footer a:active {
+  color: rgb(6, 6, 74);
+}
