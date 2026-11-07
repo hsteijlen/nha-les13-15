@@ -16,11 +16,30 @@
     </header>
     <h1>Contactformulier</h1>
     <form>
-      <input type="text" placeholder="Uw voornaam" />
-      <input type="text" placeholder="Uw achternaam" />
-      <input type="email" placeholder="Uw e-mailadres" />
-      <textarea placeholder="Uw bericht"> </textarea>
-      <button>Verzend</button>
+      <label for="voornaam">Uw voornaam</label>
+      <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" />
+
+      <label for="achternaam">Uw achternaam</label>
+      <input
+        type="text"
+        id="achternaam"
+        name="achternaam"
+        placeholder="Achternaam"
+      />
+
+      <label for="email">Uw e-mailadres</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="E-mailadres"
+        required
+      />
+
+      <label for="bericht">Uw bericht</label>
+      <textarea id="bericht" name="bericht" placeholder="Bericht"></textarea>
+
+      <button type="submit">Verzend</button>
     </form>
 
     <footer>
